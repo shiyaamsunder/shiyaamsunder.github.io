@@ -3,13 +3,19 @@
   src: url("/fonts/WorkSans-VariableFont_wght.ttf");
   font-weight: 100 1000;
 }
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Italic-VariableFont_wght.ttf");
+  font-weight: 100 1000;
+  font-style: italic;
+}
 :root {
   font-family: "Work Sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.97);
   background-color: #242424;
 
   font-synthesis: none;
@@ -26,17 +32,62 @@ body {
   min-height: 100vh;
 }
 
+
+
+a{
+  text-decoration: none;
+}
+a, button{
+  cursor: pointer; 
+}
 .header{
   border-bottom: 1px solid white; 
   padding: 16px;
   font-weight: 700;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  text-align: center;
 }
 
+.main{
+  margin-top: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 
 #app {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem;
+  padding-top: 0rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.dl__item{
+  margin: 1.2rem 0;
+}
+
+.dl__item dt{
+  margin-bottom: 0.5rem;
+}
+
+
+.social{
+  width: 100%;
+  text-align: center;
+
+  padding-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+.social__links{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+footer{
+  margin: 1rem 0;
+}

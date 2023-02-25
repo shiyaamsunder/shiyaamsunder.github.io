@@ -4,23 +4,88 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Shiyaam Sunder's personal website." />
+
     <title>Shiyaam Sunder</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
   </head>
   <body>
-    <div id="app">
-      <div class="header">
+    <main id="app">
+      <section class="header">
         <h1>
           Shiyaam Sunder
         </h1>
-      </div>
-      <div>
-        <h1>This is my personal website</h1>
+      </section>
+      <section class = "main">
+        <div class="main__intro">
+          Hello there! My name is Shiyaam Sunder. I love computers and programming. 
+          My main interest is building websites. I also have a keen interest in 
+          game development.
+        </div>
+        <div class="main__interests">
+          <dl class="description">
+            <div class="dl__item">
+              <dt>Q: What programming language I like the most</dt>
+              <dd>
+                I don't have a particular preference when it comes to programming 
+                language, but I really like the simpleness of the C language.  
+              </dd>
+            </div>
+            <div class="dl__item">
+              <dt>Q: What IDE/Text Editor I use?</dt>
+              <dd>
+                When I started out it was VS Code for everything. Then I learned 
+                about <em> <b>Vim</b> </em> and it's modal editing philosophy. So nowadays I use 
+                <em> <b>Neovim</b> </em> (A modern fork of Vim) for most of the tasks and VSCode when 
+                I need it.
+              </dd>
+            </div>
+            <div class="dl__item">
+              I love movies and anime. Some of my favourite movies are: 
+
+              <ul>
+                <ol><em>There will be blood</em></ol>
+                <ol><em>The Irishman</em></ol>
+                <ol><em>The Banshees of Insherin</em></ol>
+                <ol><em>In Bruges</em></ol>
+                <ol><em>The Prestige</em></ol>
+              </ul>
+            </div>
+          </dl>
+
+        </div>
+      </section>
+
+      <section class="social">
         <p>
-        Work in Progress
-        </p>
-      </div>
-    </div>
+        To know about my projects checkout my 
+        <a href="https://portfolio.shiyaam.me" target="_blank"><button>portfolio</button></a> website.
+        <p>
+
+        <div class="social__links">
+          <a href="https://github.com/shiyaamsunder" target="_blank">
+            <button type="button">
+              github
+            </button>
+          </a>
+          <a href="https://instagram.com/suskanth" target="_blank">
+            <button type="button">
+              instagram
+            </button>
+          </a>
+          <a href="mailto:shiyaamsunderms@gmail.com" target="_blank">
+            <button type="button">
+              mail
+            </button>
+          </a>
+        </div>
+      </section>
+
+      <footer>
+        Made with ❤️ by 
+        <a href="https://shiyaam.me"> Shiyaam Sunder </a>
+      </footer>
+    </main>
     <!-- <script type="module" src="/main.js"></script> -->
   </body>
 </html>
