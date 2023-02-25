@@ -91,3 +91,9 @@ a, button{
 footer{
   margin: 1rem 0;
 }
+
+@media (max-width: 768px){
+  #app{
+    width: 90%;
+  }
+}
